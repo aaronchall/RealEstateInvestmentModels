@@ -1,6 +1,6 @@
 class TaxInYearOfSale
 
-  attr_accessor :total_payment_in_year_of_sale, :taxable_portion_of_gain, :taxes_in_year_of_sale
+  attr_reader :total_payment_in_year_of_sale, :taxable_portion_of_gain, :taxes_in_year_of_sale
 
   def total_payment_in_year_of_sale
     @total_payment_in_year_of_sale = down_payment + excess_of_mortgage_over_adj_basis_and_selling_expenses
